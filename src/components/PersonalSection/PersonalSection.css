@@ -1,0 +1,116 @@
+.personal-section {
+    display: flex;
+    min-height: 650px;
+}
+
+.personal-data {
+    background: #0D455D 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+
+    .personal-data,
+    .investment-stocks {
+        min-width: 100%;
+        margin-block-end: 20px;
+    }
+
+    .personal-section,
+    .investment-stocks {
+        flex-direction: column;
+
+    }
+
+    .investment {
+
+        margin-block-end: 20px;
+    }
+}
+
+.personal-data h5 {
+    font: italic normal 300 35px/35px Roboto;
+    letter-spacing: 0px;
+    color: #FFF;
+    opacity: 1;
+    margin-block-end: 10px;
+    border-left: 1px solid #fff;
+    padding-left: 1rem;
+    margin-inline-start: 50px;
+}
+
+.personal-data p {
+    font-size: 13px;
+    padding: 0 3rem;
+    color: #FFF;
+}
+
+.investment-stocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFF;
+    width: 50%;
+
+}
+
+
+.investment {
+    background: #F0F0F3 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 0px 24px;
+    opacity: 1;
+    min-height: 330px;
+    max-width: 330px;
+}
+
+.investment h3,
+.stocks h3 {
+    font: italic normal 300 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #EF233C;
+    opacity: 1;
+    border-left: 1px solid #EF233c;
+    margin-inline-start: 30px;
+    padding-inline-start: 15px;
+}
+
+.investment p,
+.stocks p {
+    font: normal normal 300 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    padding: 0 35px;
+}
+
+.stocks {
+    max-width: 330px;
+    min-height: 330px;
+
+    background: #F0F0F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.explore {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 159px
+}
+.explore button span{
+    margin-inline-end: 7px;
+}
+.explore button {
+  color:#fff;
+    width: 245px;
+    height: 52px;
+    border: none;
+    background: #EF233C 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 0px 12px;
+    opacity: 1;
+}

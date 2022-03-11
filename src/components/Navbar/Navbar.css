@@ -1,0 +1,65 @@
+.navbar {
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    background: #222222 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.mainHolder {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon {
+    position: relative;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #EF233C 0% 0% no-repeat padding-box;
+    cursor: pointer;
+
+}
+
+.icon svg {
+    top: 12px;
+    position: absolute;
+    left: 12px;
+
+}
+
+.icon svg path {
+    fill: #fff;
+    stroke-width: 0;
+}
+
+.leftPart,
+.rightPart {
+    display: flex;
+}
+
+.leftPart {
+    padding-inline-start: 2rem;
+    align-items: center;
+}
+
+.caption {
+
+    font: italic normal 300 16px/21px Roboto;
+    margin-inline-end: 10px;
+    letter-spacing: 0px;
+    color: #FFF;
+    opacity: 1;
+    margin-inline-start: 10px;
+}
+
+.border-bottom {
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+    max-height: 35px;
+}

@@ -1,0 +1,25 @@
+.iconLabelHolder {
+    display: flex;
+    align-items: center;
+    margin-inline-end: 10px;
+    cursor: pointer;
+    min-width: 80px;
+
+}
+
+.label {
+    font: italic normal 300 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFF;
+    opacity: 1;
+    margin-inline-start: 10px;
+
+}
+
+.active.iconLabelHolder span {
+    color: #EF233C ;
+}
+
+.active.iconLabelHolder svg path {
+    fill: #EF233C ;
+}
